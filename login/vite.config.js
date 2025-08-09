@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
+  base:"/login-form.github.io/",
   plugins: [tailwindcss(),react()],
-  base:"/beautiful-responsive-login-form.github.io/"
+  
 })
